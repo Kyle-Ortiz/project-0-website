@@ -76,5 +76,9 @@ ul {
 
 }
 .image {
-     
+     float: right;
+}
+.button {
+     background-color:rgb(83, 140, 163);
+     padding: 3px 7px;
 }
