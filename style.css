@@ -82,3 +82,12 @@ ul {
      background-color:rgb(83, 140, 163);
      padding: 3px 7px;
 }
+.myStory {
+     float: bottom;
+     justify-content: left;
+     width: 60%;
+
+}
+#hiddenStory {
+     display: none;
+}
