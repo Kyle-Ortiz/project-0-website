@@ -91,3 +91,12 @@ ul {
 #hiddenStory {
      display: none;
 }
+.portIntro {
+     width: 75%;
+     justify-content: center;
+     align-content: left;
+     margin: auto;
+}
+.portIntro h1 {
+     justify-content: center;
+}
