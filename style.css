@@ -84,21 +84,6 @@ ul {
      background-color:rgb(83, 140, 163);
      padding: 3px 7px;
 }
-.myStory {
-     float: bottom;
-     justify-content: left;
-     width: 60%;
-
-}
-#hiddenStory {
-     display: none;
-     text-align: justify;
-     text-justify: inter-word;
-     margin-bottom: 20px;
-     text-indent: 25px;
-     margin-top: 50px;
-     margin-left: 50px;
-}
 .portIntro {
      width: 75%;
      justify-content: center;
@@ -133,4 +118,27 @@ ul {
      border-radius: 100%;
      margin-top: 100px;
 
+}
+.myStory {
+     margin-top: 100px;
+     margin-bottom: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     opacity: 0;
+     transition: 0.3s ease-in;
+}
+.myStory.is-active {
+     transition: 0.3s ease-in;
+     opacity: 100%;
+}
+.container2 {
+     width: 70%;
+     justify-content: center;
+     align-items: center;
+}
+.container2 p {
+     text-indent: 10px;
+     justify-content: center;
+     text-align: justify;
 }
